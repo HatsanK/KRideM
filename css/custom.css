@@ -1,0 +1,158 @@
+/*
+.global-menu li>a[href], .global-menu li>a[href=""], .global-menu li>a:not([href]) {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/mainmenu.png") !important;
+}
+*/
+
+#pagehead .option .label {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/menu_label.png") !important;
+}
+
+/*
+#pagehead .option .menubox.old dl dd a {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/menu2.png") !important;
+}
+*/
+
+#pagehead .option .menubox:not(.old) dl dd a {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/menu3.png") !important;
+}
+
+.card-filter-other {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/btn_other.png") !important;
+}
+
+div.tab-wrapper.card-ordermenu ul li a {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/ltab.png") !important;
+}
+
+.card-img_lists .overlink.special_match:before {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/icon_tokusei.png") !important;
+}
+
+.mydesk-menu li a.story {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/quest.png") !important;
+}
+
+.mydesk-menu li a.story_plus:before {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/add_area.png") !important;
+}
+
+.popupbox_wrap div#detail-info .unit-box-trigger a {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/arrow_ichioshi.png") !important;
+}
+
+.sidemini-box a.button-office {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/btn3_office.png") !important;
+}
+
+.mydesk-pmeishi-header a.pmeishi-album,
+.mydesk-pmeishi-header a.pmeishi {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/btn_meishi.png") !important;
+}
+
+.mydesk-pmeishi-header .pmeishi-greet a,
+.mydesk-pmeishi-header .pmeishi-friend {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/btn_meishi_other.png") !important;
+}
+
+.see-more-btn {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/btn_open_close.png") !important;
+}
+
+.btn-deck-up, .btn-deck-down {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/btn_up_down.png") !important;
+}
+
+.ui-button-event-prize {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/event_menu_prize.png") !important;
+}
+
+.ui-button-event-play {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/event_menu_play.png") !important;
+}
+
+.ui-button-event-ranking {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/event_menu_ranking.png") !important;
+}
+
+.ui-button-event-story{
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/event_menu_story.png") !important;
+}
+
+.ui-button-event-comic {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/event_menu_comic.png") !important;
+}
+
+.ui-button-event-bonus {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/event_menu_bonus.png") !important;
+}
+
+.ui-button-event-ticket {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/event_menu_ticket.png") !important;
+}
+
+.sidemini-popup .sidemini-popup-body .sidemini-popup-goodjob {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/goodjob.png") !important;
+}
+
+.mydesk-submenus ul.mydesk-submenu-links.idol li a {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/idol.png") !important;
+}
+
+.mydesk-submenus ul.mydesk-submenu-links.unit li a {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/lesson.png") !important;
+}
+
+.ui-list-link_black li span.clear {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/listclear.png") !important;
+}
+
+ul.mydesk-submenu li a {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/mydesk_menu.png") !important;
+}
+
+ul.mydesk-submenu li.shigoto a {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/mydesk_menu_oshigoto.png") !important;
+}
+
+.mydesk-user-bars .bar-energy:before, .mydesk-user-bars .bar-appeal:before {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/mydesk_menu_text.png") !important;
+}
+
+.ui-list-link_black li span.new-type {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/news_category.png") !important;
+}
+
+.popup-news-tabs a {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/newstab.png") !important;
+}
+
+.mydesk-submenus ul.mydesk-submenu-links.shigoto li a {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/oshigoto.png") !important;
+}
+
+.ui-list-link_black li span.now {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/shinko.png") !important;
+}
+
+.mydesk-submenus ul.mydesk-submenu-links.story.old li a {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/story.png") !important;
+}
+
+.mydesk-submenus ul.mydesk-submenu-links.story:not(.old) li a {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/story2.png") !important;
+}
+
+.mydesk-submenus[data-active_tabs]:before {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/submenu_title.png") !important;
+}
+
+.ui-bar-tension {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/tension_frame.png") !important;
+}
+
+.mydesk-submenus ul.mydesk-submenu-links.lesson li a {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/unit.png") !important;
+}
+/* background-image: url("chrome-extension://__MSG_@@extension_id__/images/.png") !important; */
