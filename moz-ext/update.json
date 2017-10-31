@@ -1,0 +1,10 @@
+{
+    "addons": {
+        "krpatch@idolmaster.side.male": {
+            "updates": [
+            { "version": "0.1.0m1",
+                "update_link": "https://hatsank.github.io/sidem/moz-ext/sidem-0.1.0m1-an+fx.xpi" }
+            ]
+        }
+    }
+}
