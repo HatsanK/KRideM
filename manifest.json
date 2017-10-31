@@ -1,0 +1,34 @@
+{
+	"applications": {
+		"gecko": {
+			"id": "krpatch@idolmaster.side.male",
+			"update_url": "https://hatsank.github.io/kridem/moz-ext/update.json"
+		}
+	},
+	
+	"manifest_version": 2,
+
+    "name": "SideM 한글번역",
+    "description": "아이돌마스터 SideM의 한글번역 확장입니다.",
+    "version": "0.1.0m1",
+
+	"content_scripts": [
+		{
+			"matches": ["http://g12017647.sp.pf.mbga.jp/*"],
+			"css": ["css/custom.css"],
+			"run_at": "document_end"
+		}
+	],
+
+	"converted_from_user_script": true,
+
+    "permissions": [
+			"activeTab",
+			"http://g12017647.sp.pf.mbga.jp/"
+    ],
+
+	"web_accessible_resources": [
+      "images/*",
+	  "css/*"
+    ]
+}
