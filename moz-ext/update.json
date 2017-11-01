@@ -3,7 +3,9 @@
         "krpatch@idolmaster.side.male": {
             "updates": [
             { "version": "0.1.0m1",
-                "update_link": "https://hatsank.github.io/sidem/moz-ext/sidem-0.1.0m1-an+fx.xpi" }
+                "update_link": "https://hatsank.github.io/sidem/moz-ext/sidem-0.1.0m1-an+fx.xpi" },
+            { "version": "0.1.1",
+                "update_link": "https://hatsank.github.io/sidem/moz-ext/sidem_krpatch-0.1.1-an+fx.xpi" }
             ]
         }
     }
