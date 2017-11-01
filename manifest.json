@@ -10,7 +10,7 @@
 
     "name": "SideM 한글번역",
     "description": "아이돌마스터 SideM의 한글번역 확장입니다.",
-    "version": "0.1.0m1",
+    "version": "0.1.1",
 
 	"content_scripts": [
 		{
